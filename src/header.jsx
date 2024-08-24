@@ -1,11 +1,16 @@
 import React from 'react';
-import './App.css'; 
+import './header.css'; 
 
 function header(){
   return(
-    <div>
-      sadasdasdcontainercontainercontainer
-    </div>
+    <header> 
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Skills</a></li>
+        <li><a href="/">Contact</a></li>
+      </ul>
+    </header>
   )
 }
 
