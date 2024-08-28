@@ -25,7 +25,9 @@ function Container_1() {
     return (
         <div id="container_1">
             <ul>
-                <li><img src={photo} className="img" alt="사진"/></li>
+                <li>
+                    <img src={photo} className="img" alt="사진"/>
+                </li>
                 <li>
                     <div className="introduce">
                         <p>
